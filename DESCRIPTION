@@ -1,9 +1,11 @@
 Package: adklakedata
 Type: Package
 Title: Adirondack Long-Term Lake Data
-Version: 0.6.1
-Authors@R: c(person("Luke", "Winslow", role = c("aut", "cre"),
-    email = "lawinslow@gmail.com"), person("Taylor", "Leach", role=c("aut")), 
+Version: 0.6.2
+Authors@R: c(
+person("Jeremy", "Farrell", role== c("aut", "cre"), email = "jeremyfarrell@gmail.com"),
+person("Luke", "Winslow", role = c("aut"), 
+person("Taylor", "Leach", role=c("aut")), 
     person("Tobi", "Hahn", role=c("aut")))
 Description: Package for the access and distribution of Long-term lake datasets from lakes in the 
     Adirondack Park, northern New York state. Includes a wide variety of physical, chemical, and 
@@ -20,8 +22,8 @@ Suggests:
     maps,
     testthat,
     sf
-Repository: https://github.com/lawinslow/adklakedata
-BugReports: https://github.com/lawinslow/adklakedata/issues
+Repository: https://github.com/jeremyfarrell/adklakedata
+BugReports: https://github.com/jeremyfarrell/adklakedata/issues
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
