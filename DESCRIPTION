@@ -10,7 +10,7 @@ Authors@R: c(
   )
 Description: Package for the access and distribution of long-term lake datasets from lakes in the Adirondack Park, northern New York state. Includes a wide variety of physical, chemical, and biological parameters from 28 lakes. Data are from multiple collection organizations and have been harmonized in both time and space for ease of reuse.
 License: MIT + file LICENSE
-URL: {{ URL }}
+URL: https://github.com/jeremylfarrell/adklakedata
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
