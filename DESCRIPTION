@@ -1,18 +1,29 @@
 Package: adklakedata
+
 Title: Adirondack Long-Term Lake Data
+
 Version: 0.6.2
+
 Authors@R: c(person("Jeremy", "Farrell", role = c("aut", "cre"), email = "jeremyfarrell@gmail.com"),
              person("Luke", "Winslow", role = c("aut")),
              person("Taylor", "Leach", role = c("aut")),
              person("Tobi", "Hahn", role = c("aut")))
+             
 Description: Package for the access and distribution of Long-term lake datasets from lakes in the 
     Adirondack Park, northern New York state. Includes a wide variety of physical, chemical, and 
     biological parameters from 28 lakes. Data are from multiple collection organizations and have 
-    been harmonized in both time and space for ease of reuse. 
+    been harmonized in both time and space for ease of reuse.
+    
 License: MIT + file LICENSE
+
 Encoding: UTF-8
+
 Roxygen: list(markdown = TRUE)
+
 RoxygenNote: 7.3.2
+
 Depends: R (>= 3.5.0)
+
 Imports: httr, rappdirs, tibble
+
 Suggests: sf, testthat (>= 3.0.0)
