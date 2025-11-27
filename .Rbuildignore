@@ -4,4 +4,6 @@ README.md
 ^adklakedata\.Rproj$
 ^CRAN-SUBMISSION$
 ^.github$
+^cran-comments\.md$
+
 
