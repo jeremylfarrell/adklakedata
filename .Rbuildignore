@@ -1,7 +1,7 @@
-^.github$
 ^.*\.Rproj$
 ^\.Rproj\.user$
 README.md
 ^adklakedata\.Rproj$
 ^CRAN-SUBMISSION$
+^.github$
 

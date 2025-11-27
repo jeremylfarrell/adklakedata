@@ -1,29 +1,26 @@
 Package: adklakedata
-
 Title: Adirondack Long-Term Lake Data
-
 Version: 0.6.2
-
-Authors@R: c(person("Jeremy", "Farrell", role = c("aut", "cre"), email = "jeremyfarrell@gmail.com"),
-             person("Luke", "Winslow", role = c("aut")),
-             person("Taylor", "Leach", role = c("aut")),
-             person("Tobi", "Hahn", role = c("aut")))
-             
-Description: Package for the access and distribution of Long-term lake datasets from lakes in the 
-    Adirondack Park, northern New York state. Includes a wide variety of physical, chemical, and 
-    biological parameters from 28 lakes. Data are from multiple collection organizations and have 
-    been harmonized in both time and space for ease of reuse.
-    
+Maintainer: Jeremy Farrell <jeremyfarrell@gmail.com>
+Authors@R: c(
+    person("Jeremy", "Farrell", , "jeremyfarrell@gmail.com", role = c("aut", "cre")),
+    person("Luke", "Winslow", role = "aut"),
+    person("Taylor", "Leach", role = "aut"),
+    person("Tobi", "Hahn", role = "aut")
+  )
+Description: Package for the access and distribution of long-term lake datasets from lakes in the Adirondack Park, northern New York state. Includes a wide variety of physical, chemical, and biological parameters from 28 lakes. Data are from multiple collection organizations and have been harmonized in both time and space for ease of reuse.
 License: MIT + file LICENSE
-
+URL: {{ URL }}
 Encoding: UTF-8
-
 Roxygen: list(markdown = TRUE)
-
 RoxygenNote: 7.3.2
-
-Depends: R (>= 3.5.0)
-
-Imports: httr, rappdirs, tibble
-
-Suggests: sf, testthat (>= 3.0.0)
+BugReports: https://github.com/jeremyfarrell/adklakedata/issues
+Depends: 
+    R (>= 3.5.0)
+Imports: 
+    httr,
+    rappdirs,
+    tibble
+Suggests: 
+    sf,
+    testthat (>= 3.0.0)
